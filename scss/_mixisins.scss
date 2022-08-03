@@ -1,0 +1,8 @@
+@mixin btn_hover {
+    &:hover {
+        background-image: none;
+        background-color: $color1;
+        transition: 0.5s ease;
+        border: none;
+    }
+}
